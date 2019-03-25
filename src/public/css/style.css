@@ -1,0 +1,32 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+    background-color: #001;
+    color: #fff;
+    font-family: 'Spicy Rice', cursive;
+    /* Gradiant css */
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+.navbar-brand h1 .logo-tlou{
+    max-width: 150px;
+    height: auto;
+}
+
+.tlou-about {
+    width: 150px;
+}

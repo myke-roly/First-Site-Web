@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title><!--Usamos codigo js gracias al modulo "ejs"-->
+
+    <% include partials/head.html %>
+</head>
+<body>
+    <% include partials/navigation.html %>
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="img/tlou-bg.png" class="img-fluid" alt="font TLOU">
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION ONE -->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <img src="img/tlou-about.png" alt="the last of us" class="tlou-about img-fluid animated bounceInDown">
+            </div>
+            <div class="col-sm-6">
+                <h3>About Me</h3>
+                <p>The Last of Us is an action-adventure and horror survival video 
+                    game developed by the American company Naughty Dog and 
+                    distributed by Sony Computer Entertainment for the PlayStation console</p>
+            </div>
+        </div>
+    </div>
+
+    <% include partials/footer.html %>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "first-webpage-node",
+  "version": "1.0.0",
+  "description": "primer sito con node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "author": "myke-roly",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+
+  "now":
+  {
+      "name": "myke-roly",
+      "version": 2.2,
+      "builds": [
+          { "src": "*.js", "use": "@now/node" }
+      ]
+  }
+}
