@@ -16,15 +16,5 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
-  },
-  "now": {
-    "name": "myke-roly",
-    "version": 2.2,
-    "builds": [
-      {
-        "src": "*.js",
-        "use": "@now/node"
-      }
-    ]
   }
 }
